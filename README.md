@@ -102,7 +102,7 @@ I've used a library called `liblcm1602` for the display that is created by *[War
 
 Download i2c.c, i2c.h, lcd.c, lcd.h and put in the same directory as this application, then compile:
 
-Make sure you edit ```templcd.c``` (line 24, 31) to match your system, then compile the C files.
+Make sure you edit ```templcd.c``` (line 25, 26) to match your system, then compile the C files.
 
     make
     sudo make install

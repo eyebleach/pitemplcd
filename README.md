@@ -104,7 +104,8 @@ Download i2c.c, i2c.h, lcd.c, lcd.h and put in the same directory as this applic
 
 Make sure you edit ```templcd.c``` (line 24, 31) to match your system, then compile the C files.
 
-    gcc i2c.c lcd.c templcd.c -o templcd
+    make
+    sudo make install
 
 Now schedule these programs to run every 3 min (or whatever you like)
 
@@ -112,6 +113,6 @@ Now schedule these programs to run every 3 min (or whatever you like)
 
 Add this to at the bottom line, make sure you enter the right paths:
 
-    */3 * * * * /home/your/path/templcd
+    */3 * * * * templcd
 
 Run the programs one time to init them, or wait for cron to run them.

@@ -4,7 +4,7 @@
 A simple, portable weather monitoring Pi for personal use.
 Thanks to all people who have contributed to the Pi-community! Sharing is caring.
 
-[How it looks](http://s27.postimg.org/5fbygsjsj/IMG_3087.jpg)
+[How it can look](http://www.patasoft.se/files/templcd.jpg)
 
 Use at your own risk!
 
